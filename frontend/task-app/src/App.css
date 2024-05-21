@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:  #bdb4b4;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #3b2f2f; /* Chocolate color */
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: #5a3e3e; /* Darker chocolate color */
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #8b4513; /* Sienna color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #a0522d; /* Sienna darkened */
+}
+
+.register-link {
+  margin-top: 15px;
+}
+
+.register-link a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #ff6666;
+  margin-bottom: 15px;
+}

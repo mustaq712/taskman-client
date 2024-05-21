@@ -1,0 +1,26 @@
+/* Navbar.css */
+.navbar {
+    background-color: #d2691e; /* Chocolate color */
+  }
+  
+  .navbar-brand h2 {
+    color: #fff;
+  }
+  
+  .nav-link, .dropdown-item {
+    color: #fff !important;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #c05a1b; /* Slightly darker shade of chocolate */
+  }
+  
+  .nav-link.dropdown-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link.dropdown-toggle .CgProfile {
+    margin-left: 8px;
+  }
+  
